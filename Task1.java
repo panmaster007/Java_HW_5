@@ -14,8 +14,7 @@ public class Task1 {
             if (maxCount < item.getValue().size())
                 maxCount = item.getValue().size();
             if (minCount > item.getValue().size())
-                minCount = item.getValue().size();
-            
+                minCount = item.getValue().size();           
         }
          
         Stack<String> st = new Stack<>();
@@ -76,11 +75,8 @@ public class Task1 {
             }
         };
         System.out.println();
-        // Печатаем исходный набор данных
         System.out.println("Исходные данные: ");
         sortedPrint(abon);
-
-        // Создаем циклическое меню
         Scanner scan = new Scanner(System.in, "cp866");
         Boolean getOut = false;
         String st;
@@ -117,11 +113,8 @@ public class Task1 {
                     System.out.println("До свидания!!!");
                     System.out.println();
                     break;
-                }   
-                    
-               
+                }                                      
             }
         }
     }
-
 }
